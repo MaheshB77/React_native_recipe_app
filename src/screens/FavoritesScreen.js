@@ -31,11 +31,9 @@ export default class FavoritesScreen extends Component {
             }
         });
     };
+
     render() {
         return (
-            // <View style={favoritesScreenStyles.screen}>
-            //     <Text>The Favorites screen</Text>
-            // </View>
             <MealList
                 mealsToDisplay={this.state.favMeals}
                 navigation={this.props.navigation}

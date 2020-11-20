@@ -11,7 +11,6 @@ export default class CatagoriesScreen extends Component {
     }
 
     componentDidMount = () => {
-
         // Setting left header icon to toggle the side drawer
         this.props.navigation.setOptions({
             headerLeft: () => {
